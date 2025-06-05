@@ -4,15 +4,28 @@
         <title>Code Solo</title>
         <style>
            /* 1. Yeck, the image is way too big. Select the class name `image` and adjust the width to a reasonable size. */
-           
+        .image{
+            width:100px;
+        }
            /* 2. Select the body tag and change: the background color to your favorite color and the font color to one that works well with the background. */
-
+        body,.end{
+            background-color:chartreuse;
+            color:black;
+        }
            /* 3. Change the background color for the paragraph tags to whatever color you like. */
-
+        p,.paragraph{
+            background-color: darkcyan;
+            text-indent: 30px;
+            padding:20px;
+        }
            /* 4. Choose one more html element to change on your page. Change it however you want. */
-
+        a{
+            color:red;
+        }
            /* 5. Spicy Task: see if you can align the h1 header to the center of the page. */
-
+        h1{
+            text-align: center;
+        }
         </style>
     </head>
     <body>
@@ -33,7 +46,7 @@
 
             <h2>How to Make Popcorn</h2>
             <p>Popcorn can be prepared in various ways, including on the stovetop, in an air popper, or using a microwave.</p>
-            <ol>
+            <ol class="paragraph">
                 <li>Heat the oil in a large pot or pan.</li>
                 <li>Add a few popcorn kernels to the hot oil.</li>
                 <li>Once they pop, add the rest of the kernels.</li>
@@ -43,7 +56,7 @@
             </ol>
 
             <h2>Popular Popcorn Flavors</h2>
-            <ul>
+            <ul class="paragraph">
                 <li>Buttered</li>
                 <li>Caramel</li>
                 <li>Cheese</li>
@@ -52,7 +65,7 @@
             </ul>
 
             <footer>
-                <p>&copy; 2023 Popcorn World. All rights reserved.</p>
+                <p class="end">&copy; 2023 Popcorn World. All rights reserved.</p>
             </footer>
         </div>
     </body>
